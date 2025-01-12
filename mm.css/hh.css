@@ -1,0 +1,346 @@
+body{
+  padding:0px ;
+  margin: 0px ;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+display: grid;
+height: 100hv;
+grid-template-columns: repeat(4 , 1fr);
+grid-template-rows: repeat(4 , 1fr);
+grid-template-areas: "log cll fot  fot "
+"log lol ded ded"
+" cla cla beb beb "
+"mom frf go go ";
+}
+.one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: log ;
+  background-color: #5a30a8;
+  }
+  .parint{
+  width:250px  ;
+  height: 250px ;
+  background-color: #695196;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .parint img{
+  max-width: 100px ;
+  margin-top: 15px;
+  }
+ .parint h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: hsla(0, 0%, 100%, .08);
+  background-image: url(https://uploads-ssl.webflow.com/5bc242f…/5bc2f42…_Shape.png);
+  font-size: 10px; 
+  width:80px;
+  height: 12px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30%;
+  }
+  h3{
+  font-size: 15px ;
+  color: black;
+  margin: 1px;
+  }
+  .son{
+  width: 250px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .son h1{
+  color:white;
+  font-family:fantasy;
+  text-align: center;
+  height: 20px;
+  }
+  .son p{
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+  }
+  .ll{
+    color: black;
+  width: 100px ;
+  height: 15px;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px ;
+  }
+  .ll:hover{
+color: #cddfe5;
+  }
+  .tow{
+grid-area: cla;
+background-color: rgb(236, 236, 236);
+display: flex;
+-ms-flex-direction: row-reverse;
+flex: left;
+justify-content: flex-end;
+flex-direction: row;
+  }
+  .tow img{
+  width: 300px ;
+  height: 400px  ;
+  margin-left: 20px ;
+  }
+  .roend0{
+display: flex;
+padding: 40px;
+align-content: flex-start;
+flex-direction: column;
+  }
+ .roend0 h2{
+color: rgb(97, 91, 83);
+margin-bottom: 3px 0 3px 0;
+  }
+  .roend0 h3 {
+    color: rgb(0, 0, 0);
+width: 230pxpx ;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .roend0 p{
+margin-bottom: 10px ;
+color: rgb(75, 71, 71);
+width:250px;
+font-family: cursive;
+font-size: 32px ;
+  }
+  .three{
+    grid-area:lol ;
+background-color: #f05638;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+  .three div{
+color: white;
+width: 150px ;
+text-align: center;
+  }
+.roend00{
+color:rgb(241, 137, 17) ;
+text-decoration: none;
+font-size:20px ;
+  }
+  .three img{
+    max-width: 275px;
+  }
+  .fore{
+grid-area: fot;
+background-color: #eceff3;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+  .fdf{
+font-size: 15px ;
+color: #6984ac;
+text-align: center;
+margin-bottom: 20px;
+  }
+  .roy{
+font-size: 40px ;
+text-align: center;
+color: black;  
+margin-bottom: 20px;
+margin-top: 20px;   
+ width: 350px;
+}
+.test{
+color: #0f5fd8;
+text-align: center;
+padding: 20px ;
+}
+.five{
+grid-area:beb ;
+background-color: #f8f3f3;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.roend1{
+  padding: 30px;
+}
+img{
+max-width: 418px;
+}
+.roend2{
+color: rgb(61, 57, 57);
+font-size: 20px ;
+text-align: unset;
+}
+.roend3{
+color: black;
+font-family: monospace;
+position: relative;
+top: 20px;
+font-size: 30px;
+margin-top: 10px;
+margin-bottom: 20px;
+font-family: Arvo, sans-serif;
+font-size: 32px;
+line-height: 36px;
+font-weight: 400;
+width: 253px;
+}
+.roend4{
+color: #0f5fd8;
+font-size: 12px ;
+text-decoration: none;
+font-weight: 700;
+letter-spacing: 2.4px ;
+padding: 30px;
+}
+.roend5{
+padding: 30px;
+}
+.six{
+grid-area: cll;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.roend7{
+width: 400px ;
+position: relative;
+right: 20px;
+}
+.roend9{
+width: 80px ;
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+.roend8{
+text-decoration: none;
+color: #0f5fd8;
+font-size: 20px;
+text-align: center;
+}
+.siven{
+  grid-area: go;
+background-color: #2c2c2c;
+display: flex;
+flex-direction: row;
+}
+.roend10{
+margin: 30px;
+width: 300px ;
+height: 250px;
+}
+.roend11{
+color: white;
+font-size: 30px ;
+width: 250px;
+margin-left: 20px;
+margin-top: 100px;
+}
+.eat{
+grid-area: mom ;
+background-color: #38d5f4;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.roend12{
+background-color: #30abc4;
+border-radius: 50%;
+height: 250px ;
+width: 250px;
+margin: 20px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.roend13{
+text-align: center;
+}
+.roend14{
+text-align: center;
+color: wheat;
+width: 130px;
+}
+.nien{
+grid-area: frf;
+background-color: #EEE;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+}
+.roend15{
+background-color: rgb(52, 110, 52);
+color: white;
+font-size: 15px ;
+width: 80px ;
+border-radius: 80px;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 100px;
+}
+.roend16{
+font-size: 30px ;
+color: #2c2c2c;
+width: 300px;
+text-align: center;
+}
+.tean{
+grid-area: ded ;
+background-color:#93b6b7 ;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+}
+.roend18{
+background-color: #fa684f;
+margin-top: 10px;
+padding: 7px;
+width: fit-content;
+text-align: center;
+border-radius: 22%;
+margin: 15px;
+position: relative;
+bottom:130px;
+right:220px;
+}
+.roend19{
+text-align: center;
+font-size: 30px ;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+position: relative;
+bottom:100px;
+}
+@media(max-width:767px){
+
+}
+@media(max-width: 768px){
+}
+@media(min-width: 992px){
+}
+@media(min-width: 1200px){
+
+}
